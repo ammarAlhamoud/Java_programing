@@ -1,0 +1,16 @@
+package CommandPattern;
+
+public class RestaurantStarter {
+
+	public static void main(String[] args) {
+		
+		PräsedintTische P_tisch = new PräsedintTische();
+		NormalTisch N_tisch = new NormalTisch();
+		VIP_Tisch V_tisch = new VIP_Tisch();
+		
+		NormalKunde n_k = new NormalKunde();
+		n_k.setServiceBefehl(new NormalTischBefehl());
+		n_k.Service_durchführen();
+	}
+
+}

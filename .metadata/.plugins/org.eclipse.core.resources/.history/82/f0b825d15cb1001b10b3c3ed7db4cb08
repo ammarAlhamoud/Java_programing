@@ -1,0 +1,12 @@
+package CommandPattern;
+
+public class RestaurantStarter {
+
+	public static void main(String[] args) {
+		
+		PräsedintTische P_tisch = new PräsedintTische();
+		NormalTisch N_tisch = new NormalTisch();
+		
+	}
+
+}

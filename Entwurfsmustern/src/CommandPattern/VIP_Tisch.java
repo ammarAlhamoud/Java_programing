@@ -1,0 +1,18 @@
+package CommandPattern;
+
+public class VIP_Tisch {
+	
+	public void Grüßen() {
+		System.out.println("Guten Tag Herr VIP!");
+	}
+	
+	public void servieren() {
+		System.out.println("Was Hätten Sie gerne zum Essen?");
+		System.out.println("\tAuberjiene Salad\n\tPommis\n\tKodai Chicken\n\tWein");
+	}
+	
+	public void verabschieden() {
+		System.out.println("Danke Ihnen, Aufwiedersehen!");
+	}
+
+}

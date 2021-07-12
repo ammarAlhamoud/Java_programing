@@ -1,0 +1,19 @@
+package Verbindungsorientiert_5;
+
+import java.io.InputStream;
+
+public class KundeEmpfangen extends Thread{
+	
+	private InputStream Rein;
+	private Steuerung Fertig;
+	
+	public KundeEmpfangen(InputStream R, Steuerung F) {
+		this.Rein = R;
+		this.Fertig = F;
+	}
+	
+	public void run() {
+		
+	}
+
+}

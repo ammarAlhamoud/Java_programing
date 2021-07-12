@@ -1,0 +1,10 @@
+package Verbindungsorientiert_5;
+
+public class KundeStarter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

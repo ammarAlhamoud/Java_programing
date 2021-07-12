@@ -1,0 +1,10 @@
+package CommandPattern;
+
+public class RestaurantStarter {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

@@ -1,0 +1,7 @@
+package CommandPattern;
+
+public interface VIP_Befehl {
+	
+	public void servieren();
+
+}

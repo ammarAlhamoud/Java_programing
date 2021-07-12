@@ -1,0 +1,20 @@
+package Verbindungsorientiert_5;
+
+import java.io.IOException;
+import java.net.InetAddress;
+import java.net.Socket;
+import java.net.UnknownHostException;
+
+public class Kunde {
+	
+	private Socket Verbindung;
+	
+	public Kunde() {
+		try {
+			this.Verbindung = new Socket(InetAddress.getLoopbackAddress(), 2000);
+		} catch (UnknownHostException e) {} catch (IOException e) {}
+	}
+	
+	
+
+}
